@@ -2,3 +2,7 @@ baseURL = 'https://mars160.github.io/'
 languageCode = 'zh-cn'
 title = '某位老王的小窝'
 hasCJKLanguage = true
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
