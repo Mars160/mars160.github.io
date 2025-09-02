@@ -1,0 +1,17 @@
+disabled = false
+languageCode = "zh-cn"
+languageName = "简体中文"
+weight = 1
+title = "某位老王的小窝"
+
+[params]
+displayName = "简体中文"
+isoCode = "zh-cn"
+rtl = false
+dateFormat = "2006 Jan 2"
+# logo = "logo.jpg"
+description = "一个分享兴趣、技术和生活的地方……"
+
+[params.author]
+name = "Abanana"
+image = "logo.jpg"

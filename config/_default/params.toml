@@ -1,0 +1,117 @@
+colorScheme = "congo"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+enableA11y = false
+enableSearch = true
+enableCodeCopy = true
+replyByEmail = false
+disableImageOptimization = false
+disableImageOptimizationMD = false
+disableTextInHeader = false
+fingerprintAlgorithm = "sha512"
+giteaDefaultServer = "https://git.fsfe.org"
+forgejoDefaultServer = "https://v11.next.forgejo.org"
+firebase = {}
+fathomAnalytics = {}
+umamiAnalytics = {}
+selineAnalytics = {}
+buymeacoffee = {}
+verification = {}
+rssnext = {}
+advertisement = {}
+defaultBackgroundImage = "light.jpg"
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = true
+
+[header]
+layout = "fixed"
+
+[footer]
+showMenu = true
+showCopyright = true
+showThemeAttribution = true
+showAppearanceSwitcher = true
+showScrollToTop = true
+
+[homepage]
+layout = "background"
+homepageImage = "light.jpg"
+showRecent = true
+showRecentItems = 9
+showMoreLink = true
+showMoreLinkDest = "/posts/"
+cardView = true
+cardViewScreenWidth = false
+layoutBackgroundBlur = true
+disableHeroImageFilter = false
+
+[article]
+showDate = true
+showViews = false
+showLikes = false
+showDateOnlyInArticle = true
+showDateUpdated = true
+showAuthor = true
+showHero = true
+heroStyle = "Background"
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = false
+showDraftLabel = true
+showEdit = false
+editAppendPath = true
+seriesOpened = false
+showHeadingAnchors = true
+showPagination = true
+invertPagination = false
+showReadingTime = true
+showTableOfContents = true
+showRelatedContent = true
+relatedContentLimit = 9
+showTaxonomies = true
+showCategoryOnly = false
+showAuthorsBadges = true
+showWordCount = true
+showZenMode = false
+
+[list]
+showHero = true
+heroStyle = "Background"
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = false
+showSummary = true
+showViews = false
+showLikes = false
+showTableOfContents = false
+showCards = false
+orderByWeight = false
+groupByYear = true
+cardView = false
+cardViewScreenWidth = false
+constrainItemsWidth = true
+
+[sitemap]
+excludedKinds = ["taxonomy", "term"]
+
+[taxonomy]
+showTermCount = true
+showHero = true
+heroStyle = "Background"
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = false
+cardView = false
+
+[term]
+showHero = true
+heroStyle = "Background"
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = true
+groupByYear = false
+cardView = false
+cardViewScreenWidth = false

@@ -1,0 +1,9 @@
+{{ if eq .MenuEntry.Identifier "categories" }}
+  {{ partial
+    "header/header-auto-categories.html" (dict "MenuEntry" .MenuEntry "Site" .Site)
+  }}
+{{ else if .MenuEntry.HasChildren }}
+  {{ partial "header/header-option-nested.html" .MenuEntry }}
+{{ else }}
+  {{ partial "header/header-option-simple.html" .MenuEntry }}
+{{ end }}

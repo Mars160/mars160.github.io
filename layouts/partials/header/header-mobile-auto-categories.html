@@ -1,0 +1,29 @@
+<li class="mt-1">
+  <a
+    href="{{ .MenuEntry.URL }}"
+    class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    {{ if .MenuEntry.Pre }}
+      <span {{ if and .MenuEntry.Pre .MenuEntry.Name }}class="mr-1"{{ end }}>
+        {{ partial "icon.html" .MenuEntry.Pre }}
+      </span>
+    {{ end }}
+    <p class="text-bg font-bg" title="{{ .MenuEntry.Title }}">
+      {{ .MenuEntry.Name | markdownify }}
+    </p>
+    <span>
+      {{ partial "icon.html" "chevron-down" }}
+    </span>
+  </a>
+</li>
+{{ range $name, $_ := .Site.Taxonomies.categories }}
+  <li class="mt-1">
+    <a
+      href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}"
+      class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+      <p class="text-sm font-small" title="{{ $name }}">
+        {{ $name | markdownify }}
+      </p>
+    </a>
+  </li>
+{{ end }}
+<li class="mb-2"></li>
