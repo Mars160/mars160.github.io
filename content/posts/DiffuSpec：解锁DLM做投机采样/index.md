@@ -7,6 +7,9 @@ categories:
 tags:
   - 论文
   - 算法
+  - Diffusion
+  - dLLM
+  - Spec
 ---
 
 {{< katex >}}
