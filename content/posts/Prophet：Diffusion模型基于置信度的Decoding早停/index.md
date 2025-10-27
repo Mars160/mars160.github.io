@@ -15,11 +15,11 @@ tags:
 
 ## Prophet：Diffusion 模型基于置信度的 Decoding 早停
 
+Prophet: Fast Decoding for Diffusion Language Models
+
 {{< lead >}}
 20250827 提交到 arXiv 上的，感觉像是占坑的，实验部分有些不完善
 {{< /lead >}}
-
-## Prophet: Fast Decoding for Diffusion Language Models
 
 ## 摘要
 
